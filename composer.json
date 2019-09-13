@@ -3,7 +3,7 @@
     "description": "Generate some memes y'all!",
     "type": "command",
     "require": {
-        "symfony/console": "^4.3"
+        "symfony/console": "^4.3|^3.4"
     },
     "license": "MIT",
     "authors": [
