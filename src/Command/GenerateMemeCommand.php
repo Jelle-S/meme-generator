@@ -64,7 +64,7 @@ class GenerateMemeCommand extends Command
             ($image->getImageHeight() * 0.05)
         );
 
-        if ($input->hasArgument('bottom-text')) {
+        if ($input->hasArgument('bottom-text') && $input->getArgument('bottom-text')) {
             $textBottom = $this->textImage(
                 strtoupper($input->getArgument('bottom-text')),
                 $draw,
