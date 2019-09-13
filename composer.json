@@ -1,0 +1,21 @@
+{
+    "name": "jelle-s/meme-generator",
+    "description": "Generate some memes y'all!",
+    "type": "command",
+    "require": {
+        "symfony/console": "^4.3"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Jelle Sebreghts",
+            "email": "sebreghts.jelle@gmail.com"
+        }
+    ],
+    "autoload": {
+       "psr-4": {"MemeGenerator\\": "src/"}
+    },
+    "bin": "bin/generate-meme",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
