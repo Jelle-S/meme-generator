@@ -44,10 +44,10 @@ class GenerateMemeCommand extends Command
         $draw = new ImagickDraw();
         $draw->setFillColor('white');
         $draw->setFont('Arial');
-        $draw->setFontSize(floor($image->getImageHeight() * 0.05));
+        $draw->setFontSize(floor($image->getImageHeight() * 0.1));
         $draw->setFontWeight(900);
         $draw->setStrokeColor('black');
-        $draw->setStrokeWidth(floor($image->getImageHeight() * 0.001));
+        $draw->setStrokeWidth(floor($image->getImageHeight() * 0.003));
         $draw->setStrokeAntialias(true);
         $draw->setTextAntialias(true);
 
